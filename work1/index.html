@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Homework (HTML+CSS)</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/main.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="maincontent">
+        <div class="container">
+          <header class="header">
+            <div class="header__wrap">
+              <div class="header__top">
+                <div class="header__info">
+                  <div class="header__logo"><img class="header__img" src="./assets/images/content/Logo.png" alt="Logo"></div>
+                  <div class="header__state">
+                    <ul class="header__list">
+                      <li class="header__item header__item--active"><a class="header__link" href="#">
+                          <div class="header__icon fas fa-bell"></div></a></li>
+                      <li class="header__item"><a class="header__link" href="#">
+                          <div class="header__icon fas fa-user-friends"></div></a></li>
+                      <li class="header__item"><a class="header__link" href="#">
+                          <div class="header__icon fas fa-comments"></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="auth">
+                  <div class="auth__name">Dzmitry Hlushak</div>
+                  <ul class="auth__list">
+                    <li class="auth__item"><a class="auth__link" href="#">
+                        <div class="auth__icon fas fa-user-circle">
+                          <div class="auth__triangle"></div>
+                        </div></a></li>
+                    <li class="auth__item"><a class="auth__link" href="#">
+                        <div class="auth__icon fas fa-search"></div></a></li>
+                    <li class="auth__item"><a class="auth__link" href="#">
+                        <div class="auth__icon fas fa-sign-out-alt"></div></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__bottom">
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item nav__item--active"><a class="nav__link" href="#">Dialogues</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Photos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Videos</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Music</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Communities</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <div class="user">
+            <div class="user__left">
+              <div class="user__info">
+                <div class="user__pic"><img class="user__img" src="./assets/images/content/user.jpg" alt="User"></div>
+                <div class="user__obj">
+                  <div class="user__name">Dzmitry Hlushak
+                    <div class="user__mark"></div>
+                  </div>
+                  <div class="user__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi velit inventore sit aliquam, nobis debitis!</div>
+                </div>
+              </div>
+            </div>
+            <div class="user__right">
+              <div class="user__stat">
+                <ul class="user__list">
+                  <li class="user__item"><a class="user__link" href="#">
+                      <div class="user__counter">1121</div>
+                      <div class="user__desc">Followers</div></a></li>
+                  <li class="user__item"><a class="user__link" href="#">
+                      <div class="user__counter">5,356</div>
+                      <div class="user__desc">Following</div></a></li>
+                  <li class="user__item"><a class="user__link" href="#">
+                      <div class="user__counter">502</div>
+                      <div class="user__desc">Photos</div></a></li>
+                  <li class="user__item"><a class="user__link" href="#">
+                      <div class="user__counter">789</div>
+                      <div class="user__desc">Videos</div></a></li>
+                </ul>
+              </div>
+              <div class="user__btn"><a class="btn btn__send" href="#">Send Message</a><a class="btn btn__add" href="#">Add Friend</a></div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="feed">
+              <div class="feed__top">
+                <div class="feed__title">Activity Feed</div><a class="feed__settings fas fa-cog" href="#" title="Settings"></a>
+              </div>
+              <div class="feed__center">
+                <div class="feed__block">
+                  <div class="upload__photo">
+                    <div class="upload__icon fas fa-images"></div><a class="client__name" href="#">Kevin Ertan</a>
+                    <div class="upload__desc">Added 4 photos to album<a class="upload__album" href="#">Summer</a></div>
+                    <div class="upload__pic"><img class="upload__img" src="http://lorempixel.com/60/60/business/2" alt="Upload__img"></div>
+                    <div class="upload__pic"><img class="upload__img" src="http://lorempixel.com/60/60/business" alt="Upload__img"></div>
+                    <div class="upload__pic"><img class="upload__img" src="http://lorempixel.com/60/60/city/1" alt="Upload__img"></div>
+                    <div class="upload__pic"><img class="upload__img" src="http://lorempixel.com/60/60/city/5" alt="Upload__img"></div>
+                  </div>
+                </div>
+                <div class="feed__block">
+                  <div class="like__photo">
+                    <div class="like__icon fas fa-thumbs-up"></div><a class="client__name" href="#">John Doe</a>
+                    <div class="like__desc">liked 2 photos of</div><a class="client__name" href="#">Alex Wayne</a>
+                    <div class="like__pic"><img class="like__img" src="http://lorempixel.com/60/60/city/7" alt="Like__img"></div>
+                    <div class="like__pic"><img class="like__img" src="http://lorempixel.com/60/60/city/1" alt="Like__img"></div>
+                  </div>
+                </div>
+                <div class="feed__block">
+                  <div class="friends">
+                    <div class="friends__icon fas fa-user"></div><a class="client__name" href="#">John Doe</a>
+                    <div class="friends__desc">added</div><a class="client__name" href="#">Alex Wayne</a>
+                    <div class="friends__desc">to friends</div>
+                  </div>
+                </div>
+                <div class="feed__block">
+                  <div class="event">
+                    <div class="event__icon fas fa-calendar-alt"></div><a class="client__name" href="#">Alex Giliev</a>
+                    <div class="events__desc">creater the Bowling event</div>
+                  </div>
+                </div>
+                <div class="feed__block">
+                  <div class="share">
+                    <div class="share__icon fas fa-bullhorn"></div><a class="client__name" href="#">Davdi Vane</a>
+                    <div class="share__desc">shared a link:</div>
+                    <div class="share__box">
+                      <div class="share__border"></div>
+                      <div class="share__pic"><img class="share__img" src="http://lorempixel.com/60/60/cats/" alt="Share__img"></div>
+                      <div class="share__content"><a class="share__link" href="#">Lorem ipsum dolor</a>
+                        <div class="share__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem harum excepturi aspernatur facere aperiam perferendis.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed__bottom">
+                <div class="show-more"><a class="show-more__link" href="#">Show earlier activity
+                    <div class="show-more__triangle"></div></a></div>
+              </div>
+            </div>
+            <div class="subs">
+              <div class="subs__title">People to Follow</div>
+              <ul class="subs__list">
+                <li class="subs__item subs__item--online">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/3" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">Alex Wayne<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Artist</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+                <li class="subs__item subs__item--online">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/5" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">David Wane<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Out of town</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+                <li class="subs__item">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/4" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">Kevin Ertan<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Don’t sleep</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+                <li class="subs__item subs__item--online">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/7" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">Jane Doe<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Artist</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+                <li class="subs__item">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/8" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">Alexander Wilkinson<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Stay Hungry</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+                <li class="subs__item subs__item--online">
+                  <div class="subs__wrap">
+                    <div class="subs__pic"><img class="subs__img" src="http://lorempixel.com/60/60/people/3" alt="People to Follow"></div>
+                  </div>
+                  <div class="subs__info"><a class="subs__name" href="#">Alex Wayne 2<span class="subs__icon fas fa-mobile-alt" title="Online"></span></a>
+                    <div class="subs__status">Artist</div>
+                  </div>
+                  <div class="subs__add"><a class="subs__link" href="#">Add</a></div>
+                </li>
+              </ul>
+              <div class="subs__show">
+                <div class="show-more"><a class="show-more__link" href="#">Show earlier activity
+                    <div class="show-more__triangle"></div></a></div>
+              </div>
+            </div>
+            <div class="dialog">
+              <div class="dialog__top">
+                <div class="dialog__pic"><img src="http://lorempixel.com/60/60/people/3" alt="User photo"></div>
+                <div class="dialog__name">Alex Wayne</div>
+                <div class="dialog__components">
+                  <div class="dialog__settings"><a class="dialog__link" href="#" title="Settings"><span class="dialog__icon fas fa-cog"></span></a></div>
+                  <div class="dialog__state"><a class="dialog__link" href="#" title="State">
+                      <div class="dialog__icon fas fa-window-maximize"></div></a></div>
+                  <div class="dialog__close"><a class="dialog__link" href="#" title="Close"><span class="dialog__icon fas fa-times"></span></a></div>
+                </div>
+              </div>
+              <div class="dialog__center">
+                <div class="dialog__for">
+                  <div class="dialog__for-date">Sat, Aug 23, 1:08 PM </div>
+                  <div class="dialog__for-text">
+                    <p>Vestibulum ante ipsum primis in faucibus.</p>
+                  </div>
+                </div>
+                <div class="dialog__for">
+                  <div class="dialog__for-date">Sat, Aug 23, 1:08 PM </div>
+                  <div class="dialog__for-text">
+                    <p>Cras ultricies ligula.</p>
+                  </div>
+                </div>
+                <div class="dialog__from">
+                  <div class="dialog__from-date">Sat, Aug 23, 1:10 PM</div>
+                  <div class="dialog__from-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+                  </div>
+                </div>
+                <div class="dialog__date">Sunday, August 24</div>
+                <div class="dialog__for dialog__for--error">
+                  <div class="dialog__for-date">5 minutes ago</div>
+                  <div class="dialog__for-text">
+                    <p>Cras ultricies ligula.</p>
+                  </div>
+                </div>
+                <div class="dialog__from">
+                  <div class="dialog__from-date">Sun, Aug 23, 5:55 PM</div>
+                  <div class="dialog__from-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="dialog__bottom">
+                <form class="dialog__form" name="form-dialog" method="POST">
+                  <div class="dialog__for-box"><a class="dialog__smiles" href="#"><span class="dialog__icon-bottom far fa-grin"></span></a>
+                    <textarea class="dialog__textarea" autofocus rows="1"></textarea><a class="dialog__attachment" href="#"><span class="dialog__icon-bottom fas fa-paperclip"></span></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <div class="message__all">
+              <div class="message__options">
+                <div class="message__amount">Dialogues (2)</div>
+                <div class="message__options-elems"><a class="message__search" href="#"><span class="message__icon fas fa-search"></span></a><a class="message__notif" href="#"><span class="message__icon fas fa-volume-off"></span></a><a class="message__warning" href="#"><span class="message__icon fas fa-exclamation-circle"></span></a></div>
+              </div>
+              <ul class="message__list">
+                <li class="message__item message__item--unread message__item--online"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend1.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Alex Wayne</div>
+                      <div class="message__text">Lorem ipsum dolor</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">1:55 PM
+                        <div class="message__sum">1</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend2.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">David Vane</div>
+                      <div class="message__text">Vestibulum ac diam sit meeting</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">11:39 PM
+                        <div class="message__sum">1</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend3.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Nancy Dilan</div>
+                      <div class="message__text">Quam vehicula.</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">0:28 AM
+                        <div class="message__sum">1</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item message__item--online"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend4.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Norman Kenney</div>
+                      <div class="message__text">Nulla quis lorem ut liberofdslkjhfd</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">Jul 19
+                        <div class="message__sum">1</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item message__item--unread message__item--online"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend5.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Jul 16</div>
+                      <div class="message__text">Vivamus magna justo!</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">Jul 19
+                        <div class="message__sum">3</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend6.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Mike Dorn</div>
+                      <div class="message__text">Praesent sapien massa.</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">Jul 19
+                        <div class="message__sum">0</div>
+                      </div>
+                    </div></a></li>
+                <li class="message__item"><a class="message__link" href="#">
+                    <div class="message__avatar">
+                      <div class="message__pic"><img class="message__img" src="./assets/images/content/friend7.jpg" alt="User"></div>
+                    </div>
+                    <div class="message__desc">
+                      <div class="message__name">Patrick Morison</div>
+                      <div class="message__text">Convallis a pellentesque repucle forfdfdf</div>
+                    </div>
+                    <div class="message__add">
+                      <div class="message__time">Jun 30,12
+                        <div class="message__sum">0</div>
+                      </div>
+                    </div></a></li>
+              </ul>
+            </div>
+            <div class="message__main">
+              <div class="message__top">
+                <div class="message__pic"><img class="message__img" src="./assets/images/content/friend1.jpg" alt="User"></div>
+                <div class="message__user-info"><a class="message__name" href="#">Alex Wayne</a>
+                  <div class="message__status">Online<span class="message__status-icon fas fa-mobile-alt"></span></div>
+                </div>
+                <div class="message__adjustment"><a class="message__adjustment-friends" href="#" title="Add friends"><span class="message__adjustment-icon fas fa-user-plus"></span></a><a class="message__adjustment-settings" href="#" title="Message settings"><span class="message__adjustment-icon fas fa-cog"></span></a><a class="message__adjustment-close" href="#" title="Close"><span class="message__adjustment-icon fas fa-times"></span></a></div>
+              </div>
+              <div class="message__center">
+                <div class="message__for">
+                  <div class="message__pic"><img class="message__img" src="./assets/images/content/friend1.jpg" alt="User"></div>
+                  <div class="message__for-box">
+                    <div class="message__for-time">Sat, Aug 22, 1:08 PM</div>
+                    <div class="listImages">
+                      <div class="listImages__pic"><img class="listImages__img" src="./assets/images/content/messageImg1.jpg" alt="User"></div>
+                      <div class="listImages__pic"><img class="listImages__img" src="./assets/images/content/messageImg2.jpg" alt="User"></div>
+                      <div class="listImages__pic"><img class="listImages__img" src="./assets/images/content/messageImg3.jpg" alt="User"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="message__from">
+                  <div class="message__pic"><img class="message__img" src="./assets/images/content/friend8.jpg" alt="User"></div>
+                  <div class="message__from-box">
+                    <div class="message__from-time">Sat, Aug 23, 1:10 PM</div>
+                    <div class="message__from-text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="message__for">
+                  <div class="message__pic"><img class="message__img" src="./assets/images/content/friend1.jpg" alt="User"></div>
+                  <div class="message__for-box">
+                    <div class="message__for-time">Sat, Aug 23, 1:08 PM</div>
+                    <div class="message__for-text">
+                      <p>Cras ultricies ligula.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="message__from">
+                  <div class="message__pic"><img class="message__img" src="./assets/images/content/friend8.jpg" alt="User"></div>
+                  <div class="message__from-box">
+                    <div class="message__from-time">3:10 PM</div>
+                    <div class="message__from-text">
+                      <p>Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="message__for">
+                  <div class="message__pic"><img class="message__img" src="./assets/images/content/friend1.jpg" alt="User"></div>
+                  <div class="message__write">
+                    <div class="message__write-typing">Typing...</div>
+                    <div class="message__write-box">
+                      <div class="message__write-text">...</div><span class="message__write-icon fas fa-pencil-alt"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message__bottom">
+                <form class="message__form" name="form-message" method="POST">
+                  <div class="message__form-box">
+                    <div class="message__input">
+                      <textarea class="message__textarea"></textarea>
+                      <div class="message__add"><a class="message__add-link" href="#"><span class="message__add-icon far fa-grin"></span></a>
+                        <div class="message__add-smiles">
+                          <ul class="message__add-list">
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon1.png" alt="Icons"></li>
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon2.png" alt="Icons"></li>
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon3.png" alt="Icons"></li>
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon4.png" alt="Icons"></li>
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon5.png" alt="Icons"></li>
+                            <li class="message__add-item"><img class="message__add-img" src="./assets/images/icons/icon6.png" alt="Icons"></li>
+                          </ul>
+                        </div><a class="message__add-attach" href="#">Attach</a>
+                      </div>
+                    </div>
+                    <div class="message__send">
+                      <input class="message__submit" type="submit" value="Send">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
