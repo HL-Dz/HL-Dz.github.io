@@ -5,7 +5,7 @@
 ### npm+bower - в качестве пакетного менеджера
 
 
-#### Прямые ссылки на рыботы:
+#### Прямые ссылки на работы:
 * https://hl-dz.github.io/work1/
 * https://hl-dz.github.io/work2/
 * https://hl-dz.github.io/work3/
