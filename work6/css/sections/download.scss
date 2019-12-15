@@ -1,0 +1,46 @@
+.download {
+	background-image: url(../img/content/download.jpg);
+	background-size: cover;
+	position: relative;
+
+	&__bg {
+		padding: 70px 0;
+		background: rgba(112, 171, 71, 0.90);
+	}
+
+	&__left, &__right {
+		float: left;
+	}
+
+	&__left {
+		width: 60%;
+		color: #fff;
+	}
+
+	&__right {
+		width: 40%;
+		text-align: right;
+	}
+
+	&__desc {
+		font-size: 28px;
+	}
+
+	&__text {
+		font-size: 15px;
+	}
+
+	&__btn {
+		display: inline-block;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 13px;
+		background: #49732f;
+		padding: 15px 20px;
+		border-radius: 2px;
+	}
+
+}
+
+

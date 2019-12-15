@@ -1,0 +1,89 @@
+.footer {
+	padding-top: 96px;
+
+	&__top {
+		border-bottom: 1px solid #eef1ec;
+		padding-bottom: 60px;
+	}
+
+	&__title {
+		color: #0f5f5c;
+		font-size: 13px;
+		font-weight: bold;
+		margin-bottom: 25px;
+
+		&--wapik {
+			font-size: 22px;
+			text-transform: uppercase;
+			margin-bottom: 14px;
+		}
+	}
+
+	&__info, &__company, &__others, &__newsletter {
+		float: left;
+		width: calc(1060px / 4);
+	}
+
+	&__list {
+		color: #83a7a5;
+	}
+
+	&__item {
+		margin-bottom: 5px;
+	}
+
+	&__link {
+		color: #83a7a5;
+		font-size: 13px;
+		transition: all .3s;
+		padding: 5px 10px;
+		display: inline-block;
+
+		&:hover {
+			background: rgba(112, 171, 71, 0.9);
+			color: #fff;
+		}
+	}
+
+	&__bottom {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+.newsletter {
+	&__subs {
+		margin-bottom: 20px;
+	}
+	
+	&__input {
+		font-weight: bold;
+		font-family: Verdana;
+		padding: 13px 17px;
+		border-radius: 3px;
+		border: none;
+		outline: none;
+		background:#eef1ec;
+		color: grey;
+		padding-right: 14px;
+		display: inline-block;
+	}
+
+}
+
+
+.input {
+	&__box {
+		position: relative;
+		padding-right: 14px;
+	}
+
+	&__img {
+		position: absolute;
+		top: 12px;
+		right: 17px;
+		padding-left: 15px;
+		display: inline-block;
+		margin-left: 2px;
+	}
+}
