@@ -7,6 +7,8 @@
 ***  
 
 #### Links:
+* [https://hl-dz.github.io/singolo/](https://hl-dz.github.io/singolo/ "Singolo")
+* [https://hl-dz.github.io/rsschool-cv/](https://hl-dz.github.io/rsschool-cv/ "Cv")
 * [https://hl-dz.github.io/work1/](https://hl-dz.github.io/work1/ "Work1")
 * [https://hl-dz.github.io/work2/](https://hl-dz.github.io/work2/ "Work2")
 * [https://hl-dz.github.io/work3/](https://hl-dz.github.io/work3/ "Work3")
